@@ -27,7 +27,7 @@ public class RNColorPanelManager extends SimpleViewManager<RNColorPanel> {
 
   @ReactProp(name = PROP_COLOR)
   public void setColor(RNColorPanel view, @Nullable int color) {
-    view.setColor(color);
+    // view.setColor(color);
   }
 
   @Nullable
